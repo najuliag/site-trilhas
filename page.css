@@ -7,8 +7,8 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
-}
 
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -16,7 +16,6 @@ header {
     padding: 20px;
     background-color: #f8f8f8;
 }
-
 header .logo img {
     max-width: 100px;
 }
@@ -29,55 +28,24 @@ nav ul {
 nav ul li {
     margin: 0 15px;
 }
-
 nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
 }
 
-.hero {
-    background: url('hero.jpg') no-repeat center center/cover;
-    height: 60vh;
+main{
+
     display: flex;
-    justify-content: center;
     align-items: center;
-    color: white;
-    text-align: center;
+    justify-content: center;
 }
+article{
+   background: #e7e6f8;
+   width: 75%;
+   padding-left: 1.50%;
 
-.hero h1 {
-    font-size: 3rem;
 }
-
-.destinations {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.destination {
-    max-width: 45%;
-    margin: 20px;
-    text-align: center;
-}
-
-.destination img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.destination button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #6c63ff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 
 footer {
     background-color: #f8f8f8;
